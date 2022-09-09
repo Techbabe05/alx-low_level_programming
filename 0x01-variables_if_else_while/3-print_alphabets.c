@@ -12,6 +12,8 @@ int main(void)
 
 	for (low = 'a'; low <= 'z'; low++)
 		putchar(low);
-	printf("\n");
+	for (low = 'A'; low <= 'Z'; low++)
+		putchar(low);
+	putchar('\n');
 	return (0);
 }
