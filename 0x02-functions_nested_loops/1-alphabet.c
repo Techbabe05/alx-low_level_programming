@@ -6,7 +6,7 @@
  * Description: Prints the alphabet with _putchar
  *
  * Return: void
- * */
+ */
 
 
 void print_alphabet(void)
