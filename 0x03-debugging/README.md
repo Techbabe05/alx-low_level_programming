@@ -1,1 +1,1 @@
-debugging
+Aims to explain debugging
