@@ -1,8 +1,8 @@
-include "main.h"
+#include "main.h"
 
 /**
  * main - tests function that prints is positive or negative
- *retrun; 0
+ *Return: 0
  */
 
 int main(void)
