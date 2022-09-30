@@ -11,6 +11,7 @@
 int main(int argc, char *argv[])
 {
 	int i, j, mul;
+
 	if (argc <= 2)
 
 	{
