@@ -5,9 +5,11 @@
  * 2 dimensional array of integers.
  * @width: width oàf array
  * @height: height of array
+ *
  * Return: pointer to the array
  *
  */
+
 int **alloc_grid(int width, int height)
 {
 	int **array;
@@ -37,8 +39,10 @@ int **alloc_grid(int width, int height)
 				return (NULL);
 			}
 		}
-		else
-		{
-			return (NULL);
-		}
+		return (array);
+	}
+	else
+	{
+		return (NULL);
+	}
 }
