@@ -12,5 +12,6 @@ int **alloc_grid(int width, int height);
 char **strtow(char *str);
 int num_words(char *str);
 int len(char *str);
+void free_grid(int **grid, int height);
 
 #endif /* MAIN_H */
